@@ -1,0 +1,37 @@
+{
+  "name": "smartpapering_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "smartpapering.js",
+  "scripts": {
+    "test": "nodemon smartpapering_local.js",
+    "start": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://yoos_ethan@bitbucket.org/yoos_ethan/smartpapering_server.git"
+  },
+  "author": "'yooseok'",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/yoos_ethan/smartpapering_server#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "helmet": "^4.4.1",
+    "helmet-csp": "^3.3.1",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7",
+    "sequelize": "^6.6.2",
+    "serve-favicon": "^2.5.0",
+    "serve-static": "^1.14.1",
+    "uuid": "^8.3.2",
+    "v8-compile-cache": "^2.3.0"
+  }
+}
